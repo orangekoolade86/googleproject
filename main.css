@@ -173,3 +173,51 @@ div.bottom ul.right li a {
   letter-spacing: 0.1px;
   font-size: 14px;
 }
+
+
+/*Media Query*/
+/*screen size with a max width*/
+@media(max-width:700px) 
+/*search box change in width when max width is reached*/
+{
+	div.searchBox input {
+		width: 75%;
+	}
+}
+
+/*screen size max width*/
+@media (max-width: 550px) {
+/*changes the padding on the left bottom item list*/
+	.bottom .left  {padding-left: 10px;
+						}
+/*changes padding of bottom right list*/
+	.bottom .right  {padding: 0 10px;
+						}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
